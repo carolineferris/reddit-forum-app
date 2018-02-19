@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74371d7e-eeba-48f8-9e82-834194cd1ae3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/app/models/link.rb" afterPath="$PROJECT_DIR$/app/models/link.rb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/views/comments/_comment.html.erb" afterPath="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/links/index.html.erb" afterPath="$PROJECT_DIR$/app/views/links/index.html.erb" />
       <change beforePath="$PROJECT_DIR$/app/views/links/show.html.erb" afterPath="$PROJECT_DIR$/app/views/links/show.html.erb" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -23,11 +25,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/reddit_forum_app@Development__reddit_forum_app.coverage" NAME="Development: reddit-forum-app Coverage Results" MODIFIED="1519066778977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="reddit-forum-app" />
+    <SUITE FILE_PATH="coverage/reddit_forum_app@Development__reddit_forum_app.coverage" NAME="Development: reddit-forum-app Coverage Results" MODIFIED="1519072268837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="reddit-forum-app" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
@@ -37,11 +39,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comments_controller_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/comments_controller_test.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/links/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="90">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +82,8 @@
       <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/links/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="15">
+              <caret line="1" column="99" lean-forward="false" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -71,7 +93,37 @@
         <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comments/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -96,18 +148,20 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/links/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/links/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/app/models/link.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/links/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/links/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/comments/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
       </list>
     </option>
   </component>
@@ -198,7 +252,15 @@
               <item name="reddit-forum-app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="comments" type="462c0819:PsiDirectoryNode" />
+              <item name="devise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reddit-forum-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reddit-forum-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="devise" type="462c0819:PsiDirectoryNode" />
+              <item name="registrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reddit-forum-app" type="b2602c69:ProjectViewProjectNode" />
@@ -223,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/Gemfile&#10;comments&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/config/routes.rb&#10;scaff&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/assets/stylesheets/scaffolds.scss&#10;show.&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/views/links/show.html.erb&#10;links_&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/controllers/links_controller.rb&#10;rout&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/config/routes.rb&#10;link.rb&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/models/link.rb&#10;new.&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/views/devise/confirmations/new.html.erb&#10;edit.htm&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/views/devise/registrations/edit.html.erb&#10;inde&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/views/links/index.html.erb&#10;scaffold.&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/assets/stylesheets/scaffolds.scss&#10;Gemfi&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/Gemfile&#10;Gemfile&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/Gemfile&#10;LinksCon&#9;null&#9;null&#10;links&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/config/routes.rb&#10;Gemfil&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/Gemfile" />
+    <property name="SearchEverywhereHistoryKey" value="application&#9;null&#9;null&#10;gem&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/Gemfile&#10;comments&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/config/routes.rb&#10;scaff&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/assets/stylesheets/scaffolds.scss&#10;show.&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/views/links/show.html.erb&#10;links_&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/controllers/links_controller.rb&#10;rout&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/config/routes.rb&#10;link.rb&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/models/link.rb&#10;new.&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/views/devise/confirmations/new.html.erb&#10;edit.htm&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/views/devise/registrations/edit.html.erb&#10;inde&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/views/links/index.html.erb&#10;scaffold.&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/app/assets/stylesheets/scaffolds.scss&#10;Gemfi&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/Gemfile&#10;Gemfile&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/Gemfile&#10;LinksCon&#9;null&#9;null&#10;links&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/config/routes.rb&#10;Gemfil&#9;FILE&#9;file:///Users/Caroline/Documents/RubymineProjects/reddit-forum-app/Gemfile" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
@@ -356,12 +418,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518901930223</updated>
       <workItem from="1518901932534" duration="3099000" />
-      <workItem from="1518969977287" duration="14042000" />
+      <workItem from="1518969977287" duration="15418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17141000" />
+    <option name="totallyTimeSpent" value="18517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="62" width="1400" height="773" extended-state="0" />
@@ -504,22 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -548,14 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/links/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -608,10 +646,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/links/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/links/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="15">
+          <caret line="1" column="99" lean-forward="false" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -619,15 +697,23 @@
     <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/comments/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
