@@ -18,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/reddit_forum_app@Development__reddit_forum_app.coverage" NAME="Development: reddit-forum-app Coverage Results" MODIFIED="1519072268837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="reddit-forum-app" />
+    <SUITE FILE_PATH="coverage/reddit_forum_app@Development__reddit_forum_app.coverage" NAME="Development: reddit-forum-app Coverage Results" MODIFIED="1519072400482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="reddit-forum-app" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -65,8 +65,8 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state relative-caret-position="168">
+              <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -128,6 +128,7 @@
     <findStrings>
       <find>@links.each</find>
       <find>RADD</find>
+      <find>Raddit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -412,12 +413,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518901930223</updated>
       <workItem from="1518901932534" duration="3099000" />
-      <workItem from="1518969977287" duration="15524000" />
+      <workItem from="1518969977287" duration="15605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18623000" />
+    <option name="totallyTimeSpent" value="18704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="62" width="1400" height="773" extended-state="0" />
@@ -706,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="168">
+          <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
           <folding />
         </state>
       </provider>
